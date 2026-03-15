@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.6 - 2026-03-15
+
+- Fixed Audible search result parsing so album matches no longer mix fields across adjacent products.
+- Fixed album detail extraction to keep the actual audiobook title instead of occasionally taking a nested series title.
+- Switched review extraction to the extended product description so Kodi no longer shows truncated `p` plot text.
+
 ## 1.0.5 - 2026-02-21
 
 - Added a `500` image-size fallback for cover extraction when larger Audible product images are unavailable.
