@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.7 - 2026-03-15
+
+- Restricted album artist extraction to the first Audible author only, matching the Mp3tag `Add single album artist only` behavior.
+- Kept narrators out of album artist metadata so Kodi interpreters stay author-only.
+
 ## 1.0.6 - 2026-03-15
 
 - Fixed Audible search result parsing so album matches no longer mix fields across adjacent products.
