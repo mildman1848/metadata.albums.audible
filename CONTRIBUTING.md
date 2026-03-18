@@ -1,5 +1,7 @@
 # Contributing to metadata.albums.audible
 
+Deutsch: [CONTRIBUTING.DE.md](CONTRIBUTING.DE.md)
+
 ## Before opening a pull request
 
 - Keep changes focused on the Audible album scraper or its release automation.

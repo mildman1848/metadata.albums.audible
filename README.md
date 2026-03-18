@@ -1,19 +1,17 @@
 # metadata.albums.audible
 
-Kodi-Metadaten-Scraper für Hörbuch-Alben aus der Audible Catalog API.
+Deutsch: [README.DE.md](README.DE.md)
 
-## Struktur
+Kodi metadata scraper for audiobook albums sourced from the Audible catalog API.
 
-- `metadata.albums.audible/`: installierbares Kodi-Addon
-- `scripts/build_release.py`: erzeugt das Release-ZIP unter `dist/`
-- `scripts/publish_to_repo.py`: publiziert das Addon nach `mildman1848.github.io`
-- `.github/workflows/release-publish.yml`: veröffentlicht das Release-ZIP im GitHub-Repo und publiziert es anschließend automatisch in die Kodi-Repo
+## Repository Structure
 
-## Repository-Hygiene
+- `metadata.albums.audible/`: installable Kodi addon
+- `scripts/build_release.py`: builds release ZIP files
+- `scripts/publish_to_repo.py`: publishes the addon to `mildman1848.github.io`
 
-Das Repo enthält dieselbe Grundausstattung wie die anderen eigenständigen Addon-Repos:
+## Local Validation
 
-- `CHANGELOG.md`, `SECURITY.md`, `CONTRIBUTING.md`
-- Issue- und PR-Templates unter `.github/`
-- `Dependabot`, `CI`, `CodeQL`, `Security`, `Greetings` und `Stale` Workflows
-- Prettier-, Git- und Editor-Konfiguration für konsistente Änderungen
+```bash
+npm run validate
+```
